@@ -17,6 +17,7 @@ class Scheduling{
 	  static int min(int a,int b){
 		  return a < b ? a : b;
 	  }
+	  //expands the a given vector to  newSize with not used time of unit slots
 	  static void expand(vector<int> &schedule,int newSize){
 		  while (schedule.size() <= newSize)
 		  {
@@ -49,6 +50,7 @@ public:
 	static void showSchedule(vector<Task> &tasks){
 
 		int totalValue = 0;
+		//here we will store the tasks which we are going to fulfill
 		vector<int> schedule(tasks.size()+1,NUTU);
 
 		struct Compare
@@ -57,22 +59,28 @@ public:
 				return  t1.value > t2.value;
 			}
 		};
-
+                // sort the task by value
 		sort(tasks.begin(),tasks.end(),Compare());
-
+                //go through all tasks
 		for (int currTask = 0; currTask < tasks.size(); currTask++)
 		{
+			//extracts the deadline of the current task
 			int deadline = tasks[currTask].deadline;
+			//expand the array with time tics if needed
 			if(deadline >= schedule.size()){
 				expand(schedule,deadline);
 			}
+			//search for empty slot(time tics) for the current task
+			//always looking first at the latest by the time tic in which  can complete the task
 			while(deadline > 0)
-			{
+			{       
+				//if we find one we put the task into the time slot and add the value to the total
 				if(schedule[deadline] == NUTU){
-                   schedule[deadline] = tasks[currTask].taskId;
+                                   schedule[deadline] = tasks[currTask].taskId;
 				   totalValue+=tasks[currTask].value;
 				   break;
 				}
+				
 				deadline--;
 			}
 		}
