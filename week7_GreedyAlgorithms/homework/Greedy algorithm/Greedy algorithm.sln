@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EgyptianFraction", "Greedy algorithm\Greedy algorithm.vcxproj", "{60BBC0E0-0484-4B8A-8F9A-27FE7BBCB204}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FractionalKnapsackProblem", "FractionalKnapsackProblem\FractionalKnapsackProblem.vcxproj", "{FC415E59-4836-4C83-AA39-38C149DAA9AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Knight’sTour", "Knight’sTour\Knight’sTour.vcxproj", "{392D2393-0215-48D9-875A-D66E3C68BEAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BestLecturesSchedule", "BestLecturesSchedule\BestLecturesSchedule.vcxproj", "{10C79C22-AF70-4B6F-97DA-EAD4FE2D5F30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProcessorScheduling", "ProcessorScheduling\ProcessorScheduling.vcxproj", "{F711E9C0-A2DE-4B31-AB35-19F77247AA9F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{1080312A-FC4C-4877-93AB-E336F88F59C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60BBC0E0-0484-4B8A-8F9A-27FE7BBCB204}.Debug|Win32.ActiveCfg = Debug|Win32
+		{60BBC0E0-0484-4B8A-8F9A-27FE7BBCB204}.Debug|Win32.Build.0 = Debug|Win32
+		{60BBC0E0-0484-4B8A-8F9A-27FE7BBCB204}.Release|Win32.ActiveCfg = Release|Win32
+		{60BBC0E0-0484-4B8A-8F9A-27FE7BBCB204}.Release|Win32.Build.0 = Release|Win32
+		{FC415E59-4836-4C83-AA39-38C149DAA9AD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC415E59-4836-4C83-AA39-38C149DAA9AD}.Debug|Win32.Build.0 = Debug|Win32
+		{FC415E59-4836-4C83-AA39-38C149DAA9AD}.Release|Win32.ActiveCfg = Release|Win32
+		{FC415E59-4836-4C83-AA39-38C149DAA9AD}.Release|Win32.Build.0 = Release|Win32
+		{392D2393-0215-48D9-875A-D66E3C68BEAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{392D2393-0215-48D9-875A-D66E3C68BEAA}.Debug|Win32.Build.0 = Debug|Win32
+		{392D2393-0215-48D9-875A-D66E3C68BEAA}.Release|Win32.ActiveCfg = Release|Win32
+		{392D2393-0215-48D9-875A-D66E3C68BEAA}.Release|Win32.Build.0 = Release|Win32
+		{10C79C22-AF70-4B6F-97DA-EAD4FE2D5F30}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10C79C22-AF70-4B6F-97DA-EAD4FE2D5F30}.Debug|Win32.Build.0 = Debug|Win32
+		{10C79C22-AF70-4B6F-97DA-EAD4FE2D5F30}.Release|Win32.ActiveCfg = Release|Win32
+		{10C79C22-AF70-4B6F-97DA-EAD4FE2D5F30}.Release|Win32.Build.0 = Release|Win32
+		{F711E9C0-A2DE-4B31-AB35-19F77247AA9F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F711E9C0-A2DE-4B31-AB35-19F77247AA9F}.Debug|Win32.Build.0 = Debug|Win32
+		{F711E9C0-A2DE-4B31-AB35-19F77247AA9F}.Release|Win32.ActiveCfg = Release|Win32
+		{F711E9C0-A2DE-4B31-AB35-19F77247AA9F}.Release|Win32.Build.0 = Release|Win32
+		{1080312A-FC4C-4877-93AB-E336F88F59C7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1080312A-FC4C-4877-93AB-E336F88F59C7}.Debug|Win32.Build.0 = Debug|Win32
+		{1080312A-FC4C-4877-93AB-E336F88F59C7}.Release|Win32.ActiveCfg = Release|Win32
+		{1080312A-FC4C-4877-93AB-E336F88F59C7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
