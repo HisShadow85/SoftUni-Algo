@@ -1,0 +1,45 @@
+﻿Build started 12/4/2015 1:39:21 AM.
+     1>Project "D:\GitHub\SoftUni-Algo\New folder\combinatorianAlgorithms\combinationsIteratively\combinationsIteratively.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt combinationsIteratively.cpp
+         combinationsIteratively.cpp
+     1>d:\github\softuni-algo\new folder\combinatorianalgorithms\combinationsiteratively\combinationsiteratively.cpp(33): warning C4018: '>=' : signed/unsigned mismatch
+                 d:\github\softuni-algo\new folder\combinatorianalgorithms\combinationsiteratively\combinationsiteratively.cpp(12) : while compiling class template member function 'void CombinationsIteratively<T>::combinationsIteratively(int,std::vector<_Ty> &)'
+                 with
+                 [
+                     T=std::string,
+                     _Ty=std::string
+                 ]
+                 d:\github\softuni-algo\new folder\combinatorianalgorithms\combinationsiteratively\combinationsiteratively.cpp(93) : see reference to function template instantiation 'void CombinationsIteratively<T>::combinationsIteratively(int,std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     T=std::string,
+                     _Ty=std::string
+                 ]
+                 d:\github\softuni-algo\new folder\combinatorianalgorithms\combinationsiteratively\combinationsiteratively.cpp(93) : see reference to class template instantiation 'CombinationsIteratively<T>' being compiled
+                 with
+                 [
+                     T=std::string
+                 ]
+     1>d:\github\softuni-algo\new folder\combinatorianalgorithms\combinationsiteratively\combinationsiteratively.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\github\softuni-algo\new folder\combinatorianalgorithms\combinationsiteratively\combinationsiteratively.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+                 d:\github\softuni-algo\new folder\combinatorianalgorithms\combinationsiteratively\combinationsiteratively.cpp(70) : while compiling class template member function 'void CombinationsIteratively<T>::print(std::vector<_Ty> &,std::vector<std::string> &)'
+                 with
+                 [
+                     T=std::string,
+                     _Ty=int
+                 ]
+                 d:\github\softuni-algo\new folder\combinatorianalgorithms\combinationsiteratively\combinationsiteratively.cpp(28) : see reference to function template instantiation 'void CombinationsIteratively<T>::print(std::vector<_Ty> &,std::vector<std::string> &)' being compiled
+                 with
+                 [
+                     T=std::string,
+                     _Ty=int
+                 ]
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\SoftUni-Algo\New folder\combinatorianAlgorithms\Debug\combinationsIteratively.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\SoftUni-Algo\New folder\combinatorianAlgorithms\Debug\combinationsIteratively.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\SoftUni-Algo\New folder\combinatorianAlgorithms\Debug\combinationsIteratively.lib" /MACHINE:X86 Debug\combinationsIteratively.obj
+         combinationsIteratively.vcxproj -> D:\GitHub\SoftUni-Algo\New folder\combinatorianAlgorithms\Debug\combinationsIteratively.exe
+     1>Done Building Project "D:\GitHub\SoftUni-Algo\New folder\combinatorianAlgorithms\combinationsIteratively\combinationsIteratively.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.82

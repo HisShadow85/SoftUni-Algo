@@ -7,7 +7,7 @@ using namespace std;
 
 //without OOP
 void combinationsWithRepetition(unsigned begin, unsigned end, int depth){
-
+	
 	 //initialize at the first call
 	 static vector<int> combinations;
 	 if(depth > combinations.size()) combinations.resize(depth);
@@ -17,6 +17,7 @@ void combinationsWithRepetition(unsigned begin, unsigned end, int depth){
 	 if(depth < 0 ) {
          copy(combinations.begin(),combinations.end(), ostream_iterator<int>(cout," "));
 		 cout<<endl;
+		
 	 }
 	 else{
 		 for (int i =begin; i <= end; i++)

@@ -1,0 +1,1 @@
+C:\Users\Vladimir\Desktop\Agorithms\softUniAlgo\week3_Sorting and Searching Algorithms\examps\3. Sorting-and-Searching-Algorithms-Lab-Skeleton\Sortable-Collection\bin\Debug\01.Students-And-Courses.exe.config
